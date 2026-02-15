@@ -18,11 +18,13 @@ Make it a Python virtual environment and install the `dnsupdate` program:
 
 Create the `private.yaml` file with the following contents:
 ```yaml
+---
 service_ipv4: 'members.dyndns.org'
 service_ipv6: 'members.dyndns.org'
 username: 'USERNAME'
 password: 'UPDATE-KEY'
 hostname: 'HOSTNAME'
+...
 ```
 Substitute `USERNAME` and `UPDATE_KEY` with your credentials and `HOSTNAME` with the host entry you want updated.
 
